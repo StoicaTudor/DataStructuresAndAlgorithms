@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1590054147 source:d:\info\c facultate\dsastoicatudor\colocviu\problemacolocviu\functions.c
+	"header.h"
+
+1590054196 d:\info\c facultate\dsastoicatudor\colocviu\problemacolocviu\header.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1590054925 source:d:\info\c facultate\dsastoicatudor\colocviu\problemacolocviu\main.c
+	"header.h"
+

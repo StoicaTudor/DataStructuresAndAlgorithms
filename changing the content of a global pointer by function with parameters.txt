@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct node
+{
+    int info;
+    struct node * next;
+    // struct * previous;
+} node;
+
+node * first1,*last1,*first2,*last2;
+
+void initList()
+{
+    first2=(node *) malloc(sizeof(node));
+}
+
+void addToEnd(node ** first, node ** last, int data)
+{
+    (*first)->info = data;
+}
+
+int main()
+{
+    initList();
+    addToEnd(&first2,&last2,2);
+
+    printf("%d",first2->info);
+    return 0;
+}
